@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://masalib-gatsby-blog.netlify.com',
+  title: 'masalib-gatsby-blog by Masalib',
+  subtitle: '初心者がgatsbyを導入するためのブログ',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-16973603-12',
   menu: [
     {
       label: 'Articles',
@@ -23,11 +23,11 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'masalib',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'よかったフォローしてください.',
     contacts: {
-      email: '#',
+      email: 'masalib@gmail.com',
       telegram: '#',
       twitter: '#',
       github: '#',
