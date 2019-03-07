@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Post from '../components/Post';
+import Sidebar from '../components/Sidebar';
 
 const PostTemplate = ({ data }) => {
   const {
@@ -19,6 +20,7 @@ const PostTemplate = ({ data }) => {
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
       <Post post={data.markdownRemark} />
+      <Sidebar isIndex />
     </Layout>
   );
 };
